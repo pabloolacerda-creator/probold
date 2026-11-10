@@ -1,0 +1,20 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "bounce-easing",
+        "value": "cubic-bezier(.34, 1.56, .64, 1)",
+        "createdAt": "2026-11-10T17:17:00.029Z",
+        "reason": "user confirmed: brief pins a playful 'playground' world (pediu wiggle + divertido/chamativo); subtle hover spring is the intended personality"
+      },
+      {
+        "rule": "bounce-easing",
+        "value": "cubic-bezier(.34, 1.8, .64, 1)",
+        "createdAt": "2026-11-10T17:17:03.252Z",
+        "reason": "user confirmed: playful hero-letter hover pop, intended personality per brief"
+      }
+    ]
+  }
+}
