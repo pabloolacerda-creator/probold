@@ -55,13 +55,10 @@
         </div>
         <p class="pillars">Estratégia · Criatividade · Tecnologia · Resultados</p>
       </div>
-      <div class="photo">
-        <div class="blob"></div>
-        <div class="blob ring"></div>
-        <span class="sticker s1" aria-hidden="true"><svg width="42" height="42" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1.5l2.7 6.3 6.8.6-5.1 4.5 1.5 6.6L12 16.6 6.1 20.1l1.5-6.6L2.5 9l6.8-.6z"/></svg></span>
-        <span class="sticker s2" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M3 14c3-5 6-5 9 0s6 5 9 0"/></svg></span>
-        <img src="assets/foto-recorte-web.png" alt="Fundador da Probold Marketing Digital">
-      </div>
+      <figure class="photo">
+        <img src="assets/pablo-estudio.jpg" width="896" height="1152" alt="Pablo Lacerda, fundador da Probold Marketing Digital, sorrindo e apontando para o lado em estúdio">
+        <figcaption><strong>Pablo Lacerda</strong><span>Fundador da Probold</span></figcaption>
+      </figure>
     </div>
   </header>
 
@@ -195,9 +192,12 @@
     document.querySelectorAll('[data-float]').forEach(word => {
       const text = word.textContent;
       word.textContent = '';
+      word.setAttribute('role', 'text');
+      word.setAttribute('aria-label', text);
       [...text].forEach((ch, i) => {
         const s = document.createElement('span');
         s.className = 'fl';
+        s.setAttribute('aria-hidden', 'true');
         s.textContent = ch;
         s.style.setProperty('--d', (-i * 0.12).toFixed(2) + 's');
         word.appendChild(s);

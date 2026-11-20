@@ -31,4 +31,4 @@ Emika, Caldemat, IBAA, Chefão, Tank Norte, Clássica, IPB.
 
 ## Observações
 - Texto e serviços são verdade do produto — não inventar números, clientes ou garantias.
-- A foto do fundador (`assets/foto-recorte-web.png`) é recorte real usado no hero.
+- A foto do fundador no hero é o retrato de estúdio `assets/pablo-estudio.jpg` (post_03, apontando para a manchete), em quadro limpo, sem recorte nem enfeites (círculo/estrela/rabisco foram removidos por parecerem infantis).
